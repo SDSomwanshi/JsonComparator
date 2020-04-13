@@ -49,7 +49,7 @@ public class BaseJsonController {
     @ApiResponse(code = 500, message = "Server Failure"),
     @ApiResponse(code = 400, message = "Bad Request")})
     public Optional<BaseJson> getBaseJson(@PathVariable Long id) {
-        return baseJsonService.getBaseJson(id);
+         return baseJsonService.getBaseJson(id);
     }
 
     @PostMapping(value = "/")
