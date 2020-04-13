@@ -1,5 +1,3 @@
-# JsonComparator
-
 Run JsonComparatorApplication to start the project
 Project will run on the port: 8086
 Hit following swagger url after server start up: http://localhost:8086/swagger-ui.html#/
